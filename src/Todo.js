@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Swal from 'sweetalert2'
-export default function () {
+export default function Todo() {
      let senddata = ()=>
   {
     let taskName = document.getElementById("taskName").value;
